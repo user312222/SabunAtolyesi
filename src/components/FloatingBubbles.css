@@ -1,0 +1,22 @@
+.bubble-anim {
+  position: absolute;
+  border-radius: 50%;
+  width: var(--bubble-width);
+  height: var(--bubble-height);
+  top: var(--bubble-top, unset);
+  bottom: var(--bubble-bottom, unset);
+  left: var(--bubble-left, unset);
+  right: var(--bubble-right, unset);
+  animation-delay: var(--bubble-delay);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section-bubbles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+

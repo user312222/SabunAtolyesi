@@ -1,0 +1,38 @@
+export const processSteps = [
+  {
+    num: 1,
+    title: "Sabun Bazlarını\nEritiyoruz",
+    desc: "Kaliteli sabun bazlarını kullanarak üretime başlıyoruz.",
+    numColor: "#F06767",
+    badgeBg: "#FFE1E1",
+    cardBg: "linear-gradient(180deg, #FFF4F1 0%, #FFE9E3 100%)",
+    image: "/assets/process/step1.jpg",
+  },
+  {
+    num: 2,
+    title: "Renk & Koku\nEkliyoruz",
+    desc: "Canlı renkler ve\nkalıcı esanslarla\nzenginleştiriyoruz",
+    numColor: "#F0A623",
+    badgeBg: "#FFF0CC",
+    cardBg: "linear-gradient(180deg, #FFF8E8 0%, #FFEFC7 100%)",
+    image: "/assets/process/step2.jpg",
+  },
+  {
+    num: 3,
+    title: "Meyve Formu\nVeriyoruz",
+    desc: "Özel kalıplarla meyve\ngörünümü\nkazandırıyoruz.",
+    numColor: "#9B7EC8",
+    badgeBg: "#F0E8FF",
+    cardBg: "linear-gradient(180deg, #F8F1FF 0%, #ECDDFF 100%)",
+    image: "/assets/process/step3.jpg",
+  },
+  {
+    num: 4,
+    title: "Birleştiriyoruz",
+    desc: "Banyo & mutfak için\nşık ve hediye hazır",
+    numColor: "#93B85C",
+    badgeBg: "#EEF8D9",
+    cardBg: "linear-gradient(180deg, #F6FBEF 0%, #E7F4CF 100%)",
+    image: "/assets/process/step4.jpg",
+  },
+];
